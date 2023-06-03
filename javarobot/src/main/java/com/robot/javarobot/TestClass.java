@@ -25,11 +25,11 @@ public class TestClass {
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
-		driver.get("https://beta.simplysalesjobs.co.uk/");
+		driver.get("https://naukari.com");
 		
 		driver.findElement(By.id("login_click")).click();
 		
-		driver.findElement(By.id("signin_email")).sendKeys("sanjeev.chaudhary@fridaymediagroup.com");
+		driver.findElement(By.id("signin_email")).sendKeys("sanjeev.chaudhary@naukari.com");
 		driver.findElement(By.id("signin_password")).sendKeys("test123");
 		
 		driver.findElement(By.name("signin_button")).click();
